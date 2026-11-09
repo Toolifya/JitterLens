@@ -1,0 +1,28 @@
+# Rust
+/target/
+**/*.rs.bk
+
+# Python (test fixtures / local runs)
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+ENV/
+
+# JitterLens local outputs (generated)
+/jitterlens-artifacts/
+**/jitterlens-artifacts/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
